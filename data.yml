@@ -1,0 +1,43 @@
+add:
+  data:
+    - [0, 0, 0]
+    - [1, 2, 3]
+    - [-1, -2, -3]
+    - [1.2, 1.3, 2.5]
+    - [-1.2, -1.3, -2.5]
+    - ["one", "two", "请输入数字"]
+  ids:
+    ["zero", "positive", "negative", "decimal", "negative_decimal", "str"]
+
+sub:
+  data:
+    - [0, 0, 0]
+    - [3, 2, 1]
+    - [-1, -2, 1]
+    - [1.3, 1.2, 0.1]
+    - [-1.3, -1.2, -0.1]
+    - ["one", "two", "请输入数字"]
+  ids:
+    ["zero", "positive", "negative", "decimal", "negative_decimal",  "str"]
+
+mul:
+  data:
+    - [0, 0, 0]
+    - [3, 2, 6]
+    - [-1, -2, 2]
+    - [1.3, 1.2, 1.56]
+    - [-1.3, -1.2, 1.56]
+    - ["one", "two", "请输入数字"]
+  ids:
+    ["zero", "positive", "negative", "decimal", "negative_decimal", "str"]
+
+div:
+  data:
+    - [0, 0, "除数不能为0"]
+    - [3, 2, 1.5]
+    - [-1, -2, 0.5]
+    - [1.3, 1.2, 1.1]
+    - [-1.3, -1.2, 1.1]
+    - ["one", "two", "请输入数字"]
+  ids:
+    ["zero", "positive", "negative", "decimal", "negative_decimal", "str"]
